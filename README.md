@@ -114,7 +114,7 @@ This sample application also requires that you [enable CORS](http://developer.ok
 
 1.  Go to the **Policies** section of the [IAM console](https://console.aws.amazon.com/iam/home#policies) and click **Create Policy → Create Your Own Policy**.
 2.  Name your policy (e.g. `OktaSample`), copy the JSON policy below to the **Policy Document** text box, and replace the two instances of `YOUR_BUCKET_NAME` with your actual bucket name, and click **Create Policy**.
-3.  Now go to the **Roles** section of the IAM console and click **Create New Role**
+3.  Now go to the **Roles** section of the [IAM console](https://console.aws.amazon.com/iam/home#/roles) and click **Create New Role**
 4.  Name your role (e.g. `OktaSampleRole`) and select **Role for Identity Provider Access → Grant access to web identity providers.**
 5.  Select your Okta org from the **Identity Provider** dropdown and click "Next Step"
 6.  Click "Next Step" on Verify Role Trust.
