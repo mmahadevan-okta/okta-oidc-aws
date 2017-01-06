@@ -104,7 +104,7 @@ This sample application also requires that you [enable CORS](http://developer.ok
 
 ## Create an IAM OpenID Connect Provider
 
-1.  Go to the **Identity Providers** section of the [IAM console](https://console.aws.amazon.com/iam/home#policies) and click the "Create Provider" button, select "OpenID Connect", enter your Okta org URL as the **Provider URL** (e.g. `https://example.okta.com`), enter your Okta app *Client ID* as the **Audience**, click "Next Step"
+1.  Go to the **Identity Providers** section of the [IAM console](https://console.aws.amazon.com/iam/home?#/providers) and click the "Create Provider" button, select "OpenID Connect", enter your Okta org URL as the **Provider URL** (e.g. `https://example.okta.com`), enter your Okta app *Client ID* as the **Audience**, click "Next Step"
 2.  Click "Create" to skip the "Verify Provider Information" instructions. *This step is for OIDC providers that sign their OIDC tokens* *using the private key from their HTTPS/TLS certificate. Okta* *signs OIDC tokens using different keys*
 
 
